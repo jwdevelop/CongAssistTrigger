@@ -1,0 +1,5 @@
+.firebaserc
+
+/functions/node_modules
+/functions/firebase-debug.log
+/functions/package-lock.json
