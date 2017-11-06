@@ -20,3 +20,7 @@ exports.createCongregation = functions.https.onRequest((req, res) => {
         res.status(400).send(`No congregation provided!`);
     }
 });
+
+exports.fixTerritoryAssigining = functions.https.onRequest((req, res) => {
+    res.status(200).send(`fixTerritoryAssigining works!`);
+});
