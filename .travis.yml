@@ -6,7 +6,7 @@ branches:
   - master
 cache:
   directories:
-    - "node_modules"
+    - "functions/node_modules"
 install:
   - cd functions && npm install && cd ..
 before_script:
