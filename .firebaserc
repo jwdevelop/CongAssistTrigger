@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "prod": "congassist-1935",
+    "qa": "congassist-qa"
+  }
+}
