@@ -22,5 +22,6 @@ exports.createCongregation = functions.https.onRequest((req, res) => {
 });
 
 exports.fixTerritoryAssigining = functions.https.onRequest((req, res) => {
+    admin.database().ref().once('value', snapshot => {console.log(snapshot.val())});
     res.status(200).send(`fixTerritoryAssigining works!`);
 });
